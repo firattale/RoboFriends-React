@@ -7,19 +7,19 @@ import './App.css';
 import { setSearchField, requestRobots } from '../actions';
 
 const mapStateToProps = state => {
-    return {
-        searchField: state.searchRobots.searchField,
-        robots: state.requestRobots.robots,
-        isPending: state.requestRobots.isPending,
-        error: state.requestRobots.error
-    }
+  return {
+      searchField: state.searchRobots.searchField,
+      robots: state.requestRobots.robots,
+      isPending: state.requestRobots.isPending,
+      error: state.requestRobots.error
+  }
 }
 
 const mapDispatchToProps = (dispatch) => {
-    return {
-        onSearchChange: (event) => dispatch(setSearchField(event.target.value)),
-        onRequestRobots: () => dispatch(requestRobots())
-    }
+  return {
+      onSearchChange: (event) => dispatch(setSearchField(event.target.value)),
+      onRequestRobots: () => dispatch(requestRobots())
+  }
 }
 
 class App extends Component {
