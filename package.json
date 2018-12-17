@@ -12,8 +12,7 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
     "tachyons": "^4.11.1",
-      "merge": ">=1.2.1"
-
+    "merge": ">=1.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
