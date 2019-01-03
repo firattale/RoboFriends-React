@@ -13,15 +13,15 @@ import "tachyons";
 const logger = createLogger();
 const rootReducer = combineReducers({ searchRobots, requestRobots });
 const store = createStore(
-	rootReducer,
-	applyMiddleware(thunkMiddleware, logger)
+  rootReducer,
+  applyMiddleware(thunkMiddleware, logger)
 );
 
 ReactDOM.render(
-	<Provider store={store}>
-		<App />
-	</Provider>,
-	document.getElementById("root")
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById("root")
 );
 
 registerServiceWorker();
