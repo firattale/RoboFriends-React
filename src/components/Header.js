@@ -1,5 +1,4 @@
 import React, { PureComponent } from "react";
-import CounterButton from "./CounterButton";
 
 class Header extends PureComponent {
   state = {};
@@ -11,7 +10,6 @@ class Header extends PureComponent {
     return (
       <div>
         <h1 className="f1">ROBOFRIENDS</h1>;
-        <CounterButton color={"red"} />
       </div>
     );
   }
