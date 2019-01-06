@@ -1,7 +1,7 @@
 {
   "main.css": "/RoboFriends-React/static/css/main.6f70d5f5.chunk.css",
-  "main.js": "/RoboFriends-React/static/js/main.84fd5a5d.chunk.js",
-  "main.js.map": "/RoboFriends-React/static/js/main.84fd5a5d.chunk.js.map",
+  "main.js": "/RoboFriends-React/static/js/main.68909dee.chunk.js",
+  "main.js.map": "/RoboFriends-React/static/js/main.68909dee.chunk.js.map",
   "static/css/1.526dfedd.chunk.css": "/RoboFriends-React/static/css/1.526dfedd.chunk.css",
   "static/js/1.21bb9387.chunk.js": "/RoboFriends-React/static/js/1.21bb9387.chunk.js",
   "static/js/1.21bb9387.chunk.js.map": "/RoboFriends-React/static/js/1.21bb9387.chunk.js.map",
@@ -11,6 +11,6 @@
   "static/css/main.6f70d5f5.chunk.css.map": "/RoboFriends-React/static/css/main.6f70d5f5.chunk.css.map",
   "static/css/1.526dfedd.chunk.css.map": "/RoboFriends-React/static/css/1.526dfedd.chunk.css.map",
   "index.html": "/RoboFriends-React/index.html",
-  "precache-manifest.bc4f916aac1461b0dd308bc7318a6347.js": "/RoboFriends-React/precache-manifest.bc4f916aac1461b0dd308bc7318a6347.js",
+  "precache-manifest.c9b65f2ca4ce2346a7604cb339e98494.js": "/RoboFriends-React/precache-manifest.c9b65f2ca4ce2346a7604cb339e98494.js",
   "service-worker.js": "/RoboFriends-React/service-worker.js"
 }
