@@ -3,6 +3,12 @@ import { connect } from "react-redux";
 import { setSearchField, requestRobots } from "../actions";
 import MainPage from "../components/MainPage/MainPage";
 
+class App extends Component {
+  render() {
+    return <MainPage {...this.props} />;
+  }
+}
+
 const mapStateToProps = state => {
   return {
     searchField: state.searchRobots.searchField,
@@ -19,11 +25,6 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
-class App extends Component {
-  render() {
-    return <MainPage {...this.props} />;
-  }
-}
 
 export default connect(
   mapStateToProps,

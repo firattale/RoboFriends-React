@@ -10,28 +10,27 @@ class MainPage extends Component {
     this.props.onRequestRobots();
   }
 
-  filterRobots = () => {
-    return this.props.robots.filter(robot => {
-      return robot.name
-        .toLowerCase()
-        .includes(this.props.searchField.toLowerCase());
-    });
-  };
+  filterRobots = () => this.props.robots.filter(robot => {
+    return robot.name
+      .toLowerCase()
+      .includes(this.props.searchField.toLowerCase());
+  });
+
 
   render() {
-    const { onSearchChange, robots, isPending } = this.props;
+    const { onSearchChange, isPending } = this.props;
 
     return isPending ? (
       <h1 className="tc f1">Loading</h1>
     ) : (
-      <div className="tc">
-        <Header />
-        <SearchBox searchChange={onSearchChange} />
-        <Scroll>
-          <CardList robots={this.filterRobots()} />
-        </Scroll>
-      </div>
-    );
+        <div className="tc">
+          <Header />
+          <SearchBox searchChange={onSearchChange} />
+          <Scroll>
+            <CardList robots={this.filterRobots()} />
+          </Scroll>
+        </div>
+      );
   }
 }
 
